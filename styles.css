@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Anton, Arial, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #f0f0f0;
@@ -12,11 +12,12 @@ body {
 }
 
 .card {
-    background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     aspect-ratio: 63 / 88;
     width: 300px;
     position: relative;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+    background: #833AB4;
+    background: linear-gradient(314deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
